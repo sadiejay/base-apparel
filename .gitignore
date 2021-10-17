@@ -1,0 +1,15 @@
+*.sketch
+*.xd
+*.fig
+.DS_Store
+thumbs.db
+.vscode
+.eslintrc.json
+
+TODO
+
+node_modules/
+package.json
+package-lock.json
+README.md
+README-template.md
