@@ -114,9 +114,10 @@
   }
   
   body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
-    color: #e2e3ed;
+    background:hsl(360, 100%, 98%)
+    
   }
   
   ul,
@@ -130,22 +131,18 @@
   }
   
   h1 {
-    font-weight: 400;
+    font-weight: 300;
+    font-size: 2.25em;
+    line-height: 1.2;
+    text-align: left;
+    text-transform: uppercase;
   }
   
   h2 {
-   font-family: 'Poppins', sans-serif;
    font-size: 2em;
    font-weight: 400;
   }
   
-  h3,
-  h4 {
-   font-family: 'Poppins', sans-serif;
-   font-size: 1.25em;
-   font-weight: 400;
-   margin: 20px 0;
-  }
   
   img {
     width: 100%;
@@ -157,103 +154,45 @@
   
   p {
     font-size: .9em;
+    font-weight: 600;
     line-height: 1.4em;
   }
-  
-  address {
-   font-style: normal;
-   color: #e2e3ed;
-   text-align: center;
-  }
+
   
   
   /* -------------------- Base Header - Footer Styles -------------------- */
   
+  .content-wrapper,
   header,
   footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #181a1a;
   }
   
   header .content-wrapper,
-  .features p,
   footer p {
     margin: 0;
   }
   
   header {
-   padding: 5vh 0;
+   padding: 15px 0;
+   background: whitesmoke;
   }
   
   header .content-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     flex-flow: row wrap;
   }
   
   header figure {
-    width: 60%;
+    width: 35%;
+    padding: 15px;
   }
   
-  
-  .header-divider {
-    width: 80%;
-  }
-  
-  header nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    font-weight: 800;
-    text-transform: uppercase;
-  }
-  
-  header nav ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-  }
-  
-  footer .footer-content {
-    width: 100%;
-  }
-  
-  .copyright {
-    padding-top: 4em;
-  }
-  
-  footer .social-icons {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-  }
-  
-  footer .social-icons p {
-    background-color: #527158;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   
   /* -------------------- Base Main Styles -------------------- */
-  .content-wrapper,
-  aside,
-  .features,
-  .reviews,
-  .contact,
-  .social {
+  .content-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -262,17 +201,9 @@
   
   
   .hero-area {
-    background: url('../img/hero-img.jpg') center no-repeat #425e46;
+    background: url('../img/hero-mobile.jpg') center no-repeat #425e46;
     background-size: cover;
-    min-height: 500px;
-  }
-  
-  h1 {
-    font-size: 2.25em;
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    line-height: 1.2;
-    text-align: left;
+    min-height: 250px;
   }
   
   
