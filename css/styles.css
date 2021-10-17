@@ -99,6 +99,29 @@
     width: 90%;
   }
 
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-area {
+    background: url('../img/hero-mobile.jpg') center no-repeat #425e46;
+    background-size: cover;
+    min-height: 250px;
+  }
+
+ 
+  .container,
+  .content-wrapper,
+  header,
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+
   .attribution {
     font-size: 11px; 
     text-align: center; 
@@ -162,13 +185,6 @@
   
   /* -------------------- Base Header - Footer Styles -------------------- */
   
-  .content-wrapper,
-  header,
-  footer {
-    display: flex;
-    flex-direction: column;
-  }
-  
   header .content-wrapper,
   footer p {
     margin: 0;
@@ -192,19 +208,7 @@
   
   
   /* -------------------- Base Main Styles -------------------- */
-  .content-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
   
-  
-  .hero-area {
-    background: url('../img/hero-mobile.jpg') center no-repeat #425e46;
-    background-size: cover;
-    min-height: 250px;
-  }
   
   
   
