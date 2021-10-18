@@ -185,7 +185,7 @@
   p {
     font-size: .9em;
     font-weight: 600;
-    line-height: 1.4em;
+    line-height: 1.7em;
   }
 
   
@@ -227,8 +227,44 @@
     font-weight: 600;
   }
   
-  
-  
+  form {
+    display:flex;
+    flex-direction:row;
+    border:var(--desat-red) 1px solid;
+    border-radius: 40px;
+    height: auto;
+    width: 100%;
+    align-items: center;
+  }
+
+  .input {
+    color: var(--desat-red);
+    opacity: .6;
+    border: none;
+    background: inherit;
+    padding: 19px;
+    height: 37px;
+    /* width: 100%; */
+    flex-grow: 2;
+    font-weight: 400;
+  }
+
+  .button {
+    border-radius: 40%;
+    border:none;
+    background: var(--gradient2);
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    padding: 9px 19px;
+    margin: 0 auto;
+    box-shadow: -2px 5px 10px -5px var(--soft-red);
+  }
+
+  .hide {
+      visibility: hidden;
+  }
   
   /* ==========================================================================
      Helper classes
