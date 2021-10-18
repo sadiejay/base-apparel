@@ -166,6 +166,7 @@
     letter-spacing: .3em;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 15px;
   }
   
   h2 {
@@ -183,9 +184,10 @@
   }
   
   p {
-    font-size: .9em;
+    font-size: .8em;
     font-weight: 600;
     line-height: 1.7em;
+    margin: 0 auto;
   }
 
   
@@ -211,6 +213,11 @@
   header figure {
     width: 35%;
     padding: 15px;
+    padding-left: 25px;
+  }
+
+  header figure img {
+      width: 60%;
   }
   
   
@@ -220,6 +227,11 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
+  }
+
+  main .content-wrapper {
+      margin: 45px 0px 100px;
+      padding: 0px 25px 0px;
   }
 
   span {
@@ -235,6 +247,7 @@
     height: auto;
     width: 100%;
     align-items: center;
+    margin-top: 35px;
   }
 
   .input {
