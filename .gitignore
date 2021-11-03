@@ -11,5 +11,4 @@ TODO
 node_modules/
 package.json
 package-lock.json
-README.md
-README-template.md
+README-tips.md
