@@ -9,21 +9,22 @@ const emailInput = document.querySelector('.input')
 
 form.addEventListener('submit', (e)=> {
     e.preventDefault();
-    validateEmail();
+    validateEmail(emailInput);
 });
 
 
-const validateEmail = inputText => {
+const validateEmail = emailInput => {
     const mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-    if (inputText.value.match(mailformat)) {
+    if (emailInput.value.match(mailformat)) {
         alert("Thank you for signing up.");
+        errorImage.classList.add('hide');
         emailInput.focus();
         return true;
     }
     else {
         alert("Please enter a valid email address!");
-        errorImage.className.remove('hide');
-        arrowImage.className.add('hide');
+        errorImage.classList.remove('hide');
+        // arrowImage.classList.add('hide');
         emailInput.focus();
         return false;
     }
