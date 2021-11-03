@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Base Apparel Coming Soon Screenshot](https://user-images.githubusercontent.com/19538219/139994083-6bfc8e2c-225b-47f4-a4ea-e4f5a810d7c3.png)
 
 ### Links
 
@@ -72,6 +72,7 @@ Users should be able to:
   - Oops! After strugging for days on resizing a mobile image for desktop, I never got around to playing with `min()` and `clamp()`
 
 - Don't be like me and forget that there's two images. I was stumped on img resizing for days.
+  - I wanted to play around with background image and `figure` / `img` tags in the css for better positioning of the hero but again, got too bogged down trying to resize a mobile img for mobile :faceplam:  
 
   #### code snippets
 
