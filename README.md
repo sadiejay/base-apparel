@@ -30,13 +30,13 @@ Users should be able to:
   - The email address is not formatted correctly
 
 ### Screenshot
+![Screenshot 2021-12-09 at 22-13-33 Base Apparel Coming Soon](https://user-images.githubusercontent.com/19538219/145516742-522aadd6-26c9-4af8-947c-68e22ac658eb.png)
 
-![Base Apparel Coming Soon Screenshot](https://user-images.githubusercontent.com/19538219/139994083-6bfc8e2c-225b-47f4-a4ea-e4f5a810d7c3.png)
 
 ### Links
 
-- Repo URL: [Add solution URL here](https://github.com/sadiejay/base-apparel/)
-- Live Site URL: [Add live site URL here](https://sadiejay.github.io/base-apparel/)
+- Repo URL: [https://github.com/sadiejay/base-apparel/](https://github.com/sadiejay/base-apparel/)
+- Live Site URL: [https://sadiejay.github.io/base-apparel/](https://sadiejay.github.io/base-apparel/)
 
 ## My process
 - Built out mobile view first
