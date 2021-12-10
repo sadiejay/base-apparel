@@ -49,6 +49,15 @@ Users should be able to:
 
 - Added hover animation to button
 
+- Revisted the project a month later:
+  - Changed text alignment for desktop
+  - Bumped up font size for `h1`
+  - Removed browser styles for `p` and `figure`
+  - Added background img for desktop
+  - Added a padding to `figure.content-wrapper` and `main .content-wrapper`
+    - not my most elegant solution but wasn't sure how to get the two elements aligned.
+  - Added aria labels on button and input.
+
 ### Built with
 
 - Semantic HTML5 markup
